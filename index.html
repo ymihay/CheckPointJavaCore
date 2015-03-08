@@ -584,20 +584,20 @@
 	
 		Implement a mobile network. Think about your mobile
 			phones. Try to emulate real system. You have several mobile operators
-			and can instantiate new ones: Life, MTS, Kievstar and so on.
+			and can instantiate new one: Life, MTS, Kievstar and so on.
 	
 	<p class="c8">
 		<span>Mobile operators have </span>
 	</p>
 	<ul class="c5 lst-kix_60yw6xgssyg9-0 start">
-		<li class="c2"><span>different phone numbers</span></li>
-		<li class="c2"><span>different rates for mobile services
+		<li class="c2"><span>Different phone numbers</span></li>
+		<li class="c2"><span>Different rates for mobile services
 				inside internal network</span></li>
-		<li class="c2"><span>different rates for mobile connection
+		<li class="c2"><span>Different rates for mobile connection
 				with other mobile operators</span></li>
-		<li class="c2"><span>incoming and outgoing calls can be
-				charged or can be free (it depends on the package). Mobile Operators
-				should have ability easily change their settings</span></li>
+		<li class="c2"><span>Incoming and outgoing calls can be
+				charged or can be free (it depends on the package). Mobile operators
+				should have ability to change their settings easily</span></li>
 		<li class="c2"><span>Subscription fee may be charged on
 				monthly basis, 25 days basis or can not be charged (or on your
 				choice)</span></li>
@@ -616,9 +616,9 @@
 				should be done easily. Do not forget to inform consumers about this
 				transfer. Implement notification system.</span></li>
 		<li class="c2"><span>Consumers should receive
-				notifications if something happened with his package/subscription/or
+				notifications if something happened with his/her package/subscription/or
 				account doesn&rsquo;t contain enough money to perform an operation,
-				continue automatic subscription and so on. He/she should receive
+				continue automatic subscription and so on. The consumer should receive
 				feedbacks about successful operations or errors during execution
 				with user friendly descriptions. Also consumer should receive
 				notifications if person is subscribed for some services and money
@@ -636,7 +636,7 @@
 				accept calls just from one mobile operator or from others if this
 				tower is owned by one mobile operator or is shared with others.
 				Mobile tower has restrictions on amount of connections in current
-				time ( for example 10 connections). During implementation of
+				time (for example 10 connections). During implementation of
 				call/SMS functions your program should connect to the nearest
 				available (with available connections) tower that accept calls from
 				consumer&rsquo;s mobile operator and is located in acceptable
@@ -649,34 +649,34 @@
 	
 	<p class="c8">
 		<span>Try to emulate all actions with mobile package
-			(subscribe, unsubscribe, shift to another, charge account, use your
+			(subscribe, unsubscribe, shift to another mobile package, charge account, use your
 			money/minutes while talking (emulate &ldquo;mobile incoming
 			call&rdquo;, &ldquo;mobile outgoing call&rdquo;, &ldquo;mobile
 			incoming SMS&rdquo;, &ldquo;mobile outgoing SMS&rdquo;, &ldquo;mobile
 			internet&rdquo;), try to make your account zero or less than zero
-			balanced, charged account again and try to buy a service that costs
+			balanced, charge account again and try to buy a service that cost
 			more than your current balance, receive a notification that you do
 			not have enough money), emulate connection inside internal network,
-			or with other operators ( you need to create different clients). Test
+			or with other operators (you need to create several consumers). Test
 			your application properly with several users, emulate connections,
 			sending/receiving SMS, calls. Implement several operators with
 			different mobile towers. You can simplify functionality of mobile
-			towers and imagine that all operators are located in points that are
-			not changed ( it means that distance for one consumer is not changed
-			during the period of your app is working). However if you want to
+			towers and imagine that all consumers are located in points that are
+			not changed (it means that distance for one consumer to towers doesn't change
+			during the period of your app working). However, if you want to
 			have a dynamic environment you are welcome.</span>
 	</p>
 	<p class="c8">
 		<span>Do not afraid to use design patterns. Try to find and
 			implement at least 2 design patterns that matches your situation.
-			Implement unit test with mocked objects for all system.</span>
+			Implement unit test with mocked objects for whole system.</span>
 	</p>
 	<p class="c8">
-		<span>Please, note that all packages and costs should be easily
-			changed ( contains setters, getters, appropriate constructors and
-			architecture design). You are welcome to use a database storages if
-			you want, but it&rsquo;s optional. If you will decide to use it, you
-			can use any build automation tool for resolving dependencies (Maven,
+		<span>Please, note that all mobile packages and costs should be easily
+			changed (classes contains setters, getters, appropriate constructors and
+			architecture design). You are welcome to use database storages if
+			you want, but it's optional. If you decide to use it, you
+			can use also build automation tool for resolving dependencies (Maven,
 			Gradle, etc.).</span>
 	</p>
 	
